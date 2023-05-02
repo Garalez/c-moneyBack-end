@@ -53,7 +53,7 @@ function makeGoodsFromData(data, id) {
     password: asString(data.password).toLowerCase(),
     email: asString(data.email).toLowerCase(),
     creationDate: asString(data.creationDate),
-    lastTransaction: asString(data.lastTransaction),
+    transactions: data.transactions,
     rub: data.rub,
     bit: data.bit,
   };
